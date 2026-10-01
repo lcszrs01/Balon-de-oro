@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia del Balón de Oro</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.16), transparent 32%),
+        #07080c;
+      color: #f4ead2;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 24px auto 40px;
+      background: #11151d;
+      border: 2px solid #c9a227;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+    }
+
+    .topbar {
+      background: linear-gradient(90deg, #3d2e08, #d4af37 45%, #3d2e08);
+      height: 10px;
+    }
+
+    header {
+      text-align: center;
+      padding: 28px 24px 18px;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+      background: linear-gradient(180deg, #1a1408, #11151d);
+    }
+
+    header span {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #e6c35c;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #f6e7b2;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #d7ccb0;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    main { padding: 8px 28px 32px; }
+
+    article {
+      padding: 22px 0;
+      border-bottom: 1px dashed rgba(212, 175, 55, 0.35);
+    }
+
+    article:last-of-type { border-bottom: none; }
+
+    h2 {
+      font-size: 22px;
+      color: #e6c35c;
+      margin-bottom: 10px;
+    }
+
+    p { margin-bottom: 10px; color: #f4ead2; }
+
+    .row {
+      display: flex;
+      gap: 22px;
+      align-items: center;
+      margin-top: 14px;
+    }
+
+    .row.reverse { flex-direction: row-reverse; }
+
+    .text { flex: 1; }
+
+    .photo {
+      flex: 0 0 280px;
+      text-align: center;
+    }
+
+    .photo.wide { flex-basis: 320px; }
+
+    img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      border: 3px solid #d4af37;
+      background: #0b0d12;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .photo.wide img { max-width: 320px; }
+
+    .caption {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      color: #e6c35c;
+      margin-top: 6px;
+    }
+
+    ul { margin: 8px 0 10px 22px; color: #efe4c8; }
+
+    li { margin-bottom: 4px; }
+
+    strong { color: #f6e7b2; }
+
+    footer {
+      text-align: center;
+      padding: 14px;
+      background: #0b0d12;
+      color: #d4af37;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      border-top: 1px solid rgba(212, 175, 55, 0.35);
+    }
+
+    @media (max-width: 720px) {
+      .row, .row.reverse { flex-direction: column; }
+      .photo { flex: none; width: 100%; }
+      main { padding: 8px 18px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar"></div>
+    <header>
+      <span>Presentación escolar</span>
+      <h1>Historia del Balón de Oro</h1>
+      <p>El premio individual más famoso del fútbol: sus orígenes, los máximos ganadores y los jugadores más nominados.</p>
+    </header>
+
+    <main>
+      <article>
+        <h2>1. Orígenes e historia del premio</h2>
+        <div class="row">
+          <div class="text">
+            <p>El Balón de Oro nació en 1956, creado por la revista francesa France Football. Al principio se entregaba al mejor jugador europeo. Después se convirtió en el premio al mejor futbolista del mundo.</p>
+            <p>Se entrega casi todos los años. En 2020 no hubo gala por la pandemia. En 2025 ganó Ousmane Dembélé. La próxima ceremonia está prevista para el 26 de octubre de 2026.</p>
+          </div>
+          <div class="photo">
+            <img src="images/historia1.jpg" alt="Lionel Messi con el Balón de Oro">
+            <div class="caption">Lionel Messi · 8 Balones de Oro</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <h2>2. Los máximos ganadores</h2>
+        <div class="row reverse">
+          <div class="text">
+            <p>Estos son los futbolistas con más premios en la historia:</p>
+            <ul>
+              <li><strong>Lionel Messi (Argentina):</strong> 8 veces (2009, 2010, 2011, 2012, 2015, 2019, 2021 y 2023).</li>
+              <li><strong>Cristiano Ronaldo (Portugal):</strong> 5 veces (2008, 2013, 2014, 2016 y 2017).</li>
+              <li><strong>Michel Platini, Johan Cruyff y Marco van Basten:</strong> 3 veces cada uno.</li>
+            </ul>
+            <p>Messi y Cristiano marcaron una época: entre los dos suman 13 Balones de Oro.</p>
+          </div>
+          <div class="photo">
+            <img src="images/historia2.jpg" alt="Cristiano Ronaldo con el Balón de Oro">
+            <div class="caption">Cristiano Ronaldo · 5 Balones de Oro</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <h2>3. Récords y legado</h2>
+        <div class="row">
+          <div class="text">
+            <p>También hay leyendas con dos premios: Alfredo Di Stéfano, Franz Beckenbauer, Kevin Keegan, Karl-Heinz Rummenigge y Ronaldo Nazário.</p>
+            <p>El Balón de Oro no premia solo goles. También se valora el rendimiento, los títulos, la regularidad y el impacto de cada jugador durante la temporada.</p>
+          </div>
+          <div class="photo">
+            <img src="images/historia3.jpg" alt="Platini, Cruyff y Van Basten">
+            <div class="caption">Platini, Cruyff y Van Basten · 3 premios cada uno</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <h2>4. Los máximos nominados</h2>
+        <div class="row reverse">
+          <div class="text">
+            <p>Ganar el Balón de Oro es muy difícil. Por eso también se mira quiénes fueron nominados más veces, es decir, quiénes estuvieron más veces entre los mejores del mundo.</p>
+            <ul>
+              <li><strong>Cristiano Ronaldo:</strong> 18 nominaciones (récord histórico).</li>
+              <li><strong>Lionel Messi:</strong> 17 nominaciones. En 2026 volvió a entrar en la lista y quedó a una del récord.</li>
+              <li><strong>Paolo Maldini:</strong> 13 nominaciones. Es el defensor con más apariciones.</li>
+              <li><strong>Johan Cruyff, Franz Beckenbauer y Karim Benzema:</strong> 12 nominaciones cada uno.</li>
+            </ul>
+            <p>Messi ganó más veces el premio. Cristiano fue nominado más veces. Eso muestra dos formas distintas de marcar una era.</p>
+          </div>
+          <div class="photo wide">
+            <img src="images/historia4.jpg" alt="Ranking de los máximos nominados al Balón de Oro">
+            <div class="caption">historia4.jpg · Cristiano lidera con 18 nominaciones</div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>Presentación de Historia del Balón de Oro · Imágenes: images/historia1.jpg a historia4.jpg</footer>
+  </div>
+</body>
+</html>
